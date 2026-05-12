@@ -1,0 +1,14 @@
+body{
+    font-family: Arial;
+    background-color: #111;
+    color: white;
+}
+
+nav{
+    background-color: #222;
+}
+
+a{
+    color: cyan;
+    text-decoration: none;
+}
