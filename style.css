@@ -1,7 +1,12 @@
 body{
     font-family: Arial;
-    background-color: #111;
-    color: white;
+    background-color: var(--color-acento);
+    color: var(--color-primario);
+}
+
+:root{
+    --color-primario: rgba(255, 255, 255, 0.945);
+    --color-acento: rgb(0, 0, 0);
 }
 
 nav{
@@ -11,4 +16,21 @@ nav{
 a{
     color: cyan;
     text-decoration: none;
+}
+
+.foto{
+    width: 250;
+    height: auto;
+}
+
+h1{
+    background-color: #1e8bb6;
+}
+
+h2{
+    background-color: #1e8bb6;
+}
+
+h3{
+    background-color: #3c6ac0;
 }
