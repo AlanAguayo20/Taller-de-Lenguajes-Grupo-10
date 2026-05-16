@@ -2,115 +2,150 @@
 <html lang="es">
 
 <head>
+
     <meta charset="UTF-8">
 
-    <title>Contacto - FundAR</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-    <link rel="stylesheet" href="style.css">
+    <title>Contacto - Nexus Play</title>
+
+    <link rel="stylesheet" href="./CSS/style.css">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+
+    <link href="https://fonts.googleapis.com/css2?family=Orbitron:wght@400..900&display=swap" rel="stylesheet">
+
 </head>
 
 <body>
 
+
 <header>
-<figure class="foto">
-    <img
-    src="https://drive.google.com/thumbnail?id=1ZAodhLn4V9veu0PlKV7Cg43u1rZYn82X&sz=w1000"
-    alt="Logo FundAR"
-    width="250"></figure>
 
-    <h1>FundAR</h1>
+    <nav>
 
-           <nav>
-    <ul>
-        <li><a href="./Index.html">Inicio</a></li>
+        <div class="logo">
 
-        <li>
-            <a href="./quienes-somos.html">
-                Quiénes Somos
-            </a>
-        </li>
+            <img src="imagenes/icono.png" alt="Logo">
 
-        <li>
-            <a href="./contacto.html">
-                Contacto
-            </a>
-        </li>
-    </ul>
-</nav>
+            <h2>Nexus Play</h2>
 
+        </div>
+
+        <ul>
+
+            <li><a href="./index.html">Inicio</a></li>
+
+            <li><a href="./quienes-somos.html">Quiénes Somos</a></li>
+
+            <li><a href="./programas.html">Programas</a></li>
+
+            <li><a href="./contacto.html">Contacto</a></li>
+
+        </ul>
+
+    </nav>
 
 </header>
 
+
 <main>
 
-<section>
+<section class="seccion">
 
-    <h2>Comunicate con nosotros</h2>
+    <h1>Inscripción a Torneos</h1>
 
-    <p>
-        Podés enviarnos consultas sobre torneos,
-        eventos o participación en la comunidad.
+    <p class="texto">
+
+        Registrate para participar en nuestros
+        torneos y eventos de la comunidad gamer.
+
     </p>
 
-    <form action="#" method="post">
+    <div class="formulario">
 
-        <label for="nombre">
-            Nombre:
-        </label>
+        <form>
 
-        <br>
+            <input
+                type="text"
+                placeholder="Nombre completo"
+                required
+            >
 
-        <input type="text"
-               id="nombre"
-               name="nombre"
-               required>
 
-        <br><br>
+            <input
+                type="email"
+                placeholder="Correo electrónico"
+                required
+            >
 
-        <label for="email">
-            Correo electrónico:
-        </label>
 
-        <br>
+            <select required>
 
-        <input type="email"
-               id="email"
-               name="email"
-               required>
+                <option value="">
+                    Selecciona un juego
+                </option>
 
-        <br><br>
+                <option>
+                    League of Legends
+                </option>
 
-        <label for="mensaje">
-            Mensaje:
-        </label>
+                <option>
+                    Counter Strike 2
+                </option>
 
-        <br>
+                <option>
+                    Valorant
+                </option>
 
-        <textarea id="mensaje"
-                  name="mensaje"
-                  rows="5"
-                  cols="30"></textarea>
+                <option>
+                    Fortnite
+                </option>
 
-        <br><br>
+                <option>
+                    Rocket League
+                </option>
 
-        <button type="submit">
-            Enviar
-        </button>
+                <option>
+                    Minecraft
+                </option>
 
-    </form>
+            </select>
+
+
+
+            <textarea
+                placeholder="Mensaje"
+            ></textarea>
+
+
+
+            <button class="boton">
+
+                Inscribirme
+
+            </button>
+
+        </form>
+
+    </div>
 
 </section>
 
 </main>
 
-</body>
+
+
 <footer>
 
-        <p>
-            <small>
-                &copy; 2026 FundAR - Fundación Argentina de E-Sports
-            </small>
-        </p>
+    <p>
+        © 2026 Nexus Play - Comunidad Gamer
+    </p>
 
-    </footer>
+</footer>
+
+</body>
+
 </html>
