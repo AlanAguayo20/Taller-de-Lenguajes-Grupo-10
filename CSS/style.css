@@ -53,6 +53,7 @@ nav ul{
 
 nav a{
     color:var(--blanco);
+    text-decoration: none;
 }
 
 nav a:hover{
