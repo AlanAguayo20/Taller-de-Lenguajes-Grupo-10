@@ -9,6 +9,8 @@
 
     <title>Contacto - Nexus Play</title>
 
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet">
+
     <link rel="stylesheet" href="./CSS/style.css">
 
     <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -24,116 +26,63 @@
 
 <header>
 
-    <nav>
+<nav class="navbar navbar-expand-lg navbar-dark">
+    <div class="container-fluid">
 
-        <div class="logo">
-
+        <div class="logo d-flex align-items-center gap-2">
             <img src="imagenes/icono.png" alt="Logo">
-
-            <h2>Nexus Play</h2>
-
+            <h2 class="m-0">Nexus Play</h2>
         </div>
 
-        <ul>
-
-            <li><a href="./index.html">Inicio</a></li>
-
-            <li><a href="./quienes-somos.html">Quiénes Somos</a></li>
-
-            <li><a href="./programas.html">Programas</a></li>
-
-            <li><a href="./contacto.html">Contacto</a></li>
-
+        <ul class="navbar-nav ms-auto gap-3 d-flex flex-row">
+            <li class="nav-item"><a class="nav-link" href="./index.html">Inicio</a></li>
+            <li class="nav-item"><a class="nav-link" href="./programas.html">Eventos</a></li>
+            <li class="nav-item"><a class="nav-link" href="./contacto.html">Inscripción</a></li>
+            <li class="nav-item"><a class="nav-link" href="./quienes-somos.html">Quiénes Somos</a></li>
         </ul>
 
-    </nav>
-
+    </div>
+</nav>
 </header>
 
 
 <main>
 
-<section class="seccion">
+<div class="container mt-5">
 
-    <h1>Inscripción a Torneos</h1>
+    <div class="row justify-content-center">
 
-    <p class="texto">
+        <div class="col-md-6">
 
-        Registrate para participar en nuestros
-        torneos y eventos de la comunidad gamer.
+            <form class="p-4 rounded shadow">
 
-    </p>
+                <input type="text" class="form-control mb-3" placeholder="Nombre completo" required>
 
-    <div class="formulario">
+                <input type="email" class="form-control mb-3" placeholder="Correo electrónico" required>
 
-        <form>
+                <select class="form-select mb-3" required>
+                    <option value="">Selecciona un juego</option>
+                    <option>League of Legends</option>
+                    <option>Counter Strike 2</option>
+                    <option>Valorant</option>
+                    <option>Fortnite</option>
+                    <option>Rocket League</option>
+                    <option>Minecraft</option>
+                </select>
 
-            <input
-                type="text"
-                placeholder="Nombre completo"
-                required
-            >
+                <textarea class="form-control mb-3" placeholder="Mensaje"></textarea>
 
+                <button class="btn btn-success w-100">
+                    Inscribirme
+                </button>
 
-            <input
-                type="email"
-                placeholder="Correo electrónico"
-                required
-            >
+            </form>
 
-
-            <select required>
-
-                <option value="">
-                    Selecciona un juego
-                </option>
-
-                <option>
-                    League of Legends
-                </option>
-
-                <option>
-                    Counter Strike 2
-                </option>
-
-                <option>
-                    Valorant
-                </option>
-
-                <option>
-                    Fortnite
-                </option>
-
-                <option>
-                    Rocket League
-                </option>
-
-                <option>
-                    Minecraft
-                </option>
-
-            </select>
-
-
-
-            <textarea
-                placeholder="Mensaje"
-            ></textarea>
-
-
-
-            <button class="boton">
-
-                Inscribirme
-
-            </button>
-
-        </form>
+        </div>
 
     </div>
 
-</section>
-
+</div>
 </main>
 
 
