@@ -9,6 +9,8 @@
 
     <title>Quiénes Somos - Nexus Play</title>
 
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet">
+
     <link rel="stylesheet" href="./CSS/style.css">
 
     <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -23,81 +25,76 @@
 
 <header>
 
-    <nav>
+    <nav class="navbar navbar-expand-lg navbar-dark">
+    <div class="container-fluid">
 
-        <div class="logo">
-
+        <div class="logo d-flex align-items-center gap-2">
             <img src="imagenes/icono.png" alt="Logo">
-
-            <h2>Nexus Play</h2>
-
+            <h2 class="m-0">Nexus Play</h2>
         </div>
 
-        <ul>
-
-            <li><a href="./index.html">Inicio</a></li>
-
-            <li><a href="./quienes-somos.html">Quiénes Somos</a></li>
-
-            <li><a href="./programas.html">Programas</a></li>
-
-            <li><a href="./contacto.html">Contacto</a></li>
-
+        <ul class="navbar-nav ms-auto gap-3 d-flex flex-row">
+            <li class="nav-item"><a class="nav-link" href="./index.html">Inicio</a></li>
+            <li class="nav-item"><a class="nav-link" href="./programas.html">Eventos</a></li>
+            <li class="nav-item"><a class="nav-link" href="./contacto.html">Inscripción</a></li>
+            <li class="nav-item"><a class="nav-link" href="./quienes-somos.html">Quiénes Somos</a></li>
         </ul>
 
-    </nav>
+    </div>
+</nav>
 
 </header>
 
 <main>
 
-<section class="seccion">
+<section class="hero-qs">
 
-    <h1>Quiénes Somos</h1>
+    <div class="overlay-qs">
+        <h1>Quiénes Somos</h1>
+        <p>Comunidad gamer, inclusión y futuro digital</p>
+    </div>
 
-    <p class="texto">
-        Somos una ONG enfocada en crear espacios positivos
-        mediante videojuegos, inclusión y comunidad.
-    </p>
+</section>
 
-    <div class="cards">
+<div class="container mt-5">
+    <div class="row g-4">
 
-        <div class="card">
-
-            <h3>🎮 Misión</h3>
-
-            <p>
-                Promover inclusión y trabajo en equipo.
-            </p>
-
+        <div class="col-md-4">
+            <div class="card h-100">
+                <div class="card-body">
+                    <h3> Misión👽</h3>
+                    <p>Promover inclusión y trabajo en equipo.</p>
+                </div>
+            </div>
         </div>
 
-        <div class="card">
-
-            <h3>👾 Visión</h3>
-
-            <p>
-                Crear una comunidad gamer segura y positiva.
-            </p>
-
+        <div class="col-md-4">
+            <div class="card h-100">
+                <div class="card-body">
+                    <h3>Visión👾 </h3>
+                    <p>Crear una comunidad gamer segura y positiva.</p>
+                </div>
+            </div>
         </div>
 
-        <div class="card">
-
-            <h3>💚 Valores</h3>
-
-            <p>
-                Respeto, creatividad y apoyo entre jugadores.
-            </p>
-
+        <div class="col-md-4">
+            <div class="card h-100">
+                <div class="card-body">
+                    <h3> Valores💚</h3>
+                    <p>Respeto, creatividad y apoyo entre jugadores.</p>
+                </div>
+            </div>
         </div>
 
     </div>
+</div>
 
-    <h3 class="frase">
+    </div>
+
+    <h3 class="text-center mt-5 frase">
     “Gaming, comunidad e inclusión.”
     </h3>   
-<p class="texto">
+<p class="texto text-center mt-4">
 
 En Nexus Play creemos que los videojuegos pueden
 ser una herramienta poderosa para conectar personas,
