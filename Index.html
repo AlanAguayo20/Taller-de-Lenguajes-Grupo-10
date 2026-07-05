@@ -29,16 +29,19 @@
 <nav class="navbar navbar-expand-lg navbar-dark">
     <div class="container-fluid">
 
-        <div class="logo d-flex align-items-center gap-2">
+        <a href="./index.html" class="logo d-flex align-items-center gap-2 text-decoration-none">
             <img src="imagenes/icono.png" alt="Logo">
-            <h2 class="m-0">Nexus Play</h2>
-        </div>
+            <h2 class="m-0">Nexus<span class="logo-acento">Play</span></h2>
+        </a>
 
         <ul class="navbar-nav ms-auto gap-3 d-flex flex-row">
             <li class="nav-item"><a class="nav-link" href="./index.html">Inicio</a></li>
             <li class="nav-item"><a class="nav-link" href="./programas.html">Eventos</a></li>
             <li class="nav-item"><a class="nav-link" href="./contacto.html">Inscripción</a></li>
             <li class="nav-item"><a class="nav-link" href="./quienes-somos.html">Quiénes Somos</a></li>
+            <li class="nav-item">
+                <button class="theme-toggle" id="btn-modo">☀️</button>
+            </li>
         </ul>
 
     </div>
@@ -60,14 +63,110 @@
                 </p>
 
                 <a href="./programas.html">
-
                     <button class="boton">
                         Ver Eventos
                     </button>
-
                 </a>
 
-</a>
+            </div>
+
+        </section>
+
+        <!-- ESTADISTICAS DE IMPACTO -->
+        <section class="estadisticas">
+
+            <div>
+                <h2>+500</h2>
+                <p>Jugadores activos</p>
+            </div>
+
+            <div>
+                <h2>15</h2>
+                <p>Torneos realizados</p>
+            </div>
+
+            <div>
+                <h2>3</h2>
+                <p>Años de trayectoria</p>
+            </div>
+
+            <div>
+                <h2>100%</h2>
+                <p>Comunidad gratuita</p>
+            </div>
+
+        </section>
+
+        <!-- PROXIMOS EVENTOS -->
+        <section class="seccion">
+
+            <div class="container">
+
+                <h2>Próximos Eventos</h2>
+                <p>Sumate a nuestros torneos y viví la experiencia Nexus Play.</p>
+
+                <div class="row g-4 mt-3">
+
+                    <div class="col-md-4">
+                        <div class="card h-100">
+                            <img src="./imagenes/league.jpeg" class="card-img-top" alt="League of Legends Cup">
+                            <div class="card-body text-center">
+                                <h3>League of Legends Cup</h3>
+                                <p>Nuestro torneo principal - De Hoy</p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col-md-4">
+                        <div class="card h-100">
+                            <img src="./imagenes/valorant.jpg" class="card-img-top" alt="Valorant">
+                            <div class="card-body text-center">
+                                <h3>Valorant Cup</h3>
+                                <p>Próximamente - Online</p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col-md-4">
+                        <div class="card h-100">
+                            <img src="./imagenes/rocketLeague.jpg" class="card-img-top" alt="Rocket League">
+                            <div class="card-body text-center">
+                                <h3>Rocket League Arena</h3>
+                                <p>Próximamente - Presencial</p>
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+
+                <a href="./programas.html">
+                    <button class="boton mt-4">
+                        Ver todos los eventos
+                    </button>
+                </a>
+
+            </div>
+
+        </section>
+
+        <!-- QUIENES SOMOS TEASER -->
+        <section class="seccion">
+
+            <div class="contenido">
+
+                <h2>¿Quiénes somos?</h2>
+
+                <p>
+                    Usamos los videojuegos como herramienta para conectar personas,
+                    fomentar el respeto y construir una comunidad gamer inclusiva,
+                    abierta a jugadores de todas las edades.
+                </p>
+
+                <a href="./quienes-somos.html">
+                    <button class="boton">
+                        Conocer más
+                    </button>
+                </a>
 
             </div>
 
@@ -83,8 +182,8 @@
         </p>
 
     </footer>
+    <script src="./js/main.js"></script>
 
 </body>
 
-</html>
-
+</html> 
