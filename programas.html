@@ -25,16 +25,19 @@
 <nav class="navbar navbar-expand-lg navbar-dark">
     <div class="container-fluid">
 
-        <div class="logo d-flex align-items-center gap-2">
+        <a href="./index.html" class="logo d-flex align-items-center gap-2 text-decoration-none">
             <img src="imagenes/icono.png" alt="Logo">
-            <h2 class="m-0">Nexus Play</h2>
-        </div>
+            <h2 class="m-0">Nexus<span class="logo-acento">Play</span></h2>
+        </a>
 
         <ul class="navbar-nav ms-auto gap-3 d-flex flex-row">
             <li class="nav-item"><a class="nav-link" href="./index.html">Inicio</a></li>
             <li class="nav-item"><a class="nav-link" href="./programas.html">Eventos</a></li>
             <li class="nav-item"><a class="nav-link" href="./contacto.html">Inscripción</a></li>
             <li class="nav-item"><a class="nav-link" href="./quienes-somos.html">Quiénes Somos</a></li>
+            <li class="nav-item">
+                <button class="theme-toggle" id="btn-modo">☀️</button>
+            </li>
         </ul>
 
     </div>
@@ -94,11 +97,52 @@
 
 </div>
 
-</body>
+<!-- COMO PARTICIPAR -->
+<div class="container mt-5 pb-5">
+
+    <h2 class="text-center">¿Cómo participar?</h2>
+
+    <div class="row g-4 mt-3 text-center">
+
+        <div class="col-md-4">
+            <div class="card h-100">
+                <div class="card-body">
+                    <h3>1. Inscribite</h3>
+                    <p>Completá el formulario de inscripción indicando tus datos y el juego de tu interés.</p>
+                </div>
+            </div>
+        </div>
+
+        <div class="col-md-4">
+            <div class="card h-100">
+                <div class="card-body">
+                    <h3>2. Sumate a la comunidad</h3>
+                    <p>Recibirás las novedades del torneo y los horarios de cada instancia.</p>
+                </div>
+            </div>
+        </div>
+
+        <div class="col-md-4">
+            <div class="card h-100">
+                <div class="card-body">
+                    <h3>3. Jugá y disfrutá</h3>
+                    <p>Participá de las partidas, sumá puntos y competí por los premios del torneo.</p>
+                </div>
+            </div>
+        </div>
+
+    </div>
+
+</div>
+
+</main>
 
 <footer>
     <p>
         © 2026 Nexus Play - Comunidad Gamer
     </p>
 </footer>
+    <script src="./js/main.js"></script>
+
+</body>
 </html>
