@@ -29,16 +29,19 @@
 <nav class="navbar navbar-expand-lg navbar-dark">
     <div class="container-fluid">
 
-        <div class="logo d-flex align-items-center gap-2">
+        <a href="./index.html" class="logo d-flex align-items-center gap-2 text-decoration-none">
             <img src="imagenes/icono.png" alt="Logo">
-            <h2 class="m-0">Nexus Play</h2>
-        </div>
+            <h2 class="m-0">Nexus<span class="logo-acento">Play</span></h2>
+        </a>
 
         <ul class="navbar-nav ms-auto gap-3 d-flex flex-row">
             <li class="nav-item"><a class="nav-link" href="./index.html">Inicio</a></li>
             <li class="nav-item"><a class="nav-link" href="./programas.html">Eventos</a></li>
             <li class="nav-item"><a class="nav-link" href="./contacto.html">Inscripción</a></li>
             <li class="nav-item"><a class="nav-link" href="./quienes-somos.html">Quiénes Somos</a></li>
+            <li class="nav-item">
+                <button class="theme-toggle" id="btn-modo">☀️</button>
+            </li>
         </ul>
 
     </div>
@@ -50,11 +53,16 @@
 
 <div class="container mt-5">
 
+    <div class="text-center mb-4">
+        <h1>Inscribite a nuestros torneos</h1>
+        <p>Completá el formulario y formá parte de la comunidad Nexus Play.</p>
+    </div>
+
     <div class="row justify-content-center">
 
         <div class="col-md-6">
 
-            <form class="p-4 rounded shadow">
+            <form class="formulario p-4 shadow">
 
                 <input type="text" class="form-control mb-3" placeholder="Nombre completo" required>
 
@@ -82,6 +90,38 @@
 
     </div>
 
+    <!-- OTROS MEDIOS DE CONTACTO -->
+    <div class="row g-4 mt-5 pb-5 text-center">
+
+        <div class="col-md-4">
+            <div class="card h-100">
+                <div class="card-body">
+                    <h3>Correo</h3>
+                    <p>contacto@nexusplay.org</p>
+                </div>
+            </div>
+        </div>
+
+        <div class="col-md-4">
+            <div class="card h-100">
+                <div class="card-body">
+                    <h3>Discord</h3>
+                    <p>discord.gg/nexusplay</p>
+                </div>
+            </div>
+        </div>
+
+        <div class="col-md-4">
+            <div class="card h-100">
+                <div class="card-body">
+                    <h3>Instagram</h3>
+                    <p>@nexusplay.ong</p>
+                </div>
+            </div>
+        </div>
+
+    </div>
+
 </div>
 </main>
 
@@ -94,6 +134,7 @@
     </p>
 
 </footer>
+    <script src="./js/main.js"></script>
 
 </body>
 
