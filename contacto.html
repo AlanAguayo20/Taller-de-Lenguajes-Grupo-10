@@ -62,29 +62,31 @@
 
         <div class="col-md-6">
 
-            <form class="formulario p-4 shadow">
+           <form id="formulario" class="formulario p-4 shadow">
 
-                <input type="text" class="form-control mb-3" placeholder="Nombre completo" required>
+    <input id="nombre" type="text" class="form-control mb-3" placeholder="Nombre completo" required>
 
-                <input type="email" class="form-control mb-3" placeholder="Correo electrónico" required>
+    <input id="email" type="email" class="form-control mb-3" placeholder="Correo electrónico" required>
 
-                <select class="form-select mb-3" required>
-                    <option value="">Selecciona un juego</option>
-                    <option>League of Legends</option>
-                    <option>Counter Strike 2</option>
-                    <option>Valorant</option>
-                    <option>Fortnite</option>
-                    <option>Rocket League</option>
-                    <option>Minecraft</option>
-                </select>
+    <select id="juego" class="form-select mb-3" required>
+        <option value="">Selecciona un juego</option>
+        <option>League of Legends</option>
+        <option>Counter Strike 2</option>
+        <option>Valorant</option>
+        <option>Fortnite</option>
+        <option>Rocket League</option>
+        <option>Minecraft</option>
+    </select>
 
-                <textarea class="form-control mb-3" placeholder="Mensaje"></textarea>
+    <textarea id="mensaje" class="form-control mb-3" placeholder="Mensaje"></textarea>
 
-                <button class="btn btn-success w-100">
-                    Inscribirme
-                </button>
+    <button class="btn btn-success w-100">
+        Inscribirme
+    </button>
 
-            </form>
+    <p id="respuesta" class="text-center mt-3"></p>
+
+</form>
 
         </div>
 
