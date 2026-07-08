@@ -1,7 +1,3 @@
-// js/main.js
-// El JS solo alterna una clase en el body.
-// Todos los colores del modo claro están definidos en el CSS (clase .claro)
-
 const boton = document.getElementById("btn-modo");
 
 // Al cargar la página, aplicar el modo que quedó guardado de la visita anterior
@@ -64,4 +60,3 @@ formulario.addEventListener("submit", function(e){
     formulario.reset();
 
 });
-
