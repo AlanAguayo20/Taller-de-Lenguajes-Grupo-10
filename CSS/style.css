@@ -1,3 +1,5 @@
+
+
 :root{
     --fondo:#0f1020;
     --fondo-radial-1: rgba(9,148,16,0.25);
@@ -136,16 +138,6 @@ h2{
 }
 
 
-
-select{
-    padding:15px;
-    border:1px solid var(--borde);
-    border-radius:10px;
-    background:var(--superficie);
-    color:var(--texto);
-    font-family:"Orbitron", sans-serif;
-}
-
 /* CARDS */
 
 .cards{
@@ -248,7 +240,6 @@ form{
 
     margin-top:70px;
 
-    flex-wrap:wrap;
 }
 
 .estadisticas h2{
@@ -325,7 +316,7 @@ footer{
     color:var(--verde);
     margin-top:auto;
     border-top: 1px solid var(--borde);
-    transition: background-color 0.3s ease, border-color 0.3s ease;
+    
 }
 
 .frase{
@@ -406,7 +397,3 @@ body.claro .navbar-dark .navbar-nav .nav-link:hover,
 body.claro .navbar-dark .navbar-nav .nav-link:focus{
     color: var(--verde) !important;
 }
-
-
-
-
